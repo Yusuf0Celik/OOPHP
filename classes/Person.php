@@ -74,8 +74,11 @@ class Person
 
     function getInfo()
     {
-        $info = "Name: " . $this->name . "<br >Age: " . $this->age . "<br >Sex: " . $this->sex .
-            "<br >Is Student: " . $this->isStudent . "<br >Average Grade: " . $this->averageGrade;
+        $info = "Name: " . $this->name .
+            "<br >Age: " . $this->age .
+            "<br >Sex: " . $this->sex .
+            "<br >Is Student: " . $this->isStudent .
+            "<br >Average Grade: " . $this->averageGrade;
 
         return $info;
     }

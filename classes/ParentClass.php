@@ -10,8 +10,10 @@ class ParentClass
         $this->voornaam = $voornaam;
     }
 
-    public function getAchternaam(): string
+    function getAchternaam(string $achternaam)
     {
+        $this->achternaam = $achternaam;
         return $this->achternaam;
     }
+
 }
