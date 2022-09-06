@@ -18,7 +18,7 @@ class Item
 
     function __destruct()
     {
-        echo "<br> $this->id wordt verwijderd";
+        echo "<br> $this->brand $this->model wordt verwijderd";
     }
 
     public function getId(){
@@ -26,7 +26,7 @@ class Item
     }
 
     public function getDescription(){
-        return ($this->merk . " " . $this->model);
+        return ($this->brand . " " . $this->model);
     }
 
     public function getPrice(){

@@ -1,5 +1,4 @@
 <?php
-include "IShoppingCart.php";
 
 interface IShoppingCart
 {
