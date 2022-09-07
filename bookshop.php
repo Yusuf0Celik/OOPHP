@@ -7,6 +7,15 @@
     <title>Book Shop</title>
 </head>
 <body>
-    
+<?php
+    include 'classes/Winkelmand/Item.php';
+    include 'classes/Winkelmand/MyShoppingcart.php';
+
+    $book1 = new Winkelmand\Item("Lion King", "brother banks", 39.99);
+
+    $myShoppingcart = new \Winkelmand\MyShoppingCart();
+    $myShoppingcart->addToCart($book1);
+    $myShoppingcart->printCart();
+?>
 </body>
 </html>
